@@ -1,0 +1,20 @@
+{
+  "type": "commonjs",
+  "name": "documentmanager",
+  "version": "1.0.0",
+  "description": "收文管理自动化助手",
+  "main": "app.js",
+  "author": "CoderKeung",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0",
+    "superagent": "^8.1.2",
+    "tesseract.js": "^5.0.3"
+  }
+}
